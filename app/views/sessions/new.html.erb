@@ -1,0 +1,27 @@
+<div class="col-sm-6" id="new" >
+
+  <h1>Sign In</h1>
+  <h6 style="text-align:center"> Got something to say? </h6>
+  <%= form_tag auth_path, method: :post do %>
+  <div class="label">
+    <%= label_tag :username %>
+    <%= text_field_tag :username, "", class: "form-control" %>
+    <br>
+  </div>
+
+  <div class="label">
+    <%= label_tag :password %>
+    <%= password_field_tag :password, "", class: "form-control" %>
+    <br>
+  </div>
+
+  <div>
+    <%= submit_tag "Log In", class: "btn btn-primary btn-lg"%>
+    <br>
+    <br>
+    <h6>Don't have an account?  <%=link_to 'SIGN UP HERE', signup_path %> </h6>
+  </div>
+
+  <% end %>
+
+</div>

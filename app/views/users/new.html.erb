@@ -1,0 +1,21 @@
+<div class="col-sm-6 .col-md-2" id="new" >
+
+  <h1>Sign up.</h1>
+  <h4 style="text-align:center"> Do it. </h4>
+
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div class="label">
+            <%= simple_form_for @user do |f| %>
+            <%= f.input :username%>
+            <%= f.input :password %>
+            <strong> *Confirm Password </strong>
+            <%= f.input :password_confirmation, label: false %>
+              <%= f.button :submit %>
+            <%end%>
+          </div>
+          <br>
+          <br>
+      </div>
+</div>
+</div>

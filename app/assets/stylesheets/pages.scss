@@ -1,0 +1,162 @@
+.nav {
+    padding-top: 0em;
+    padding-bottom: 0.25em;
+    background-color: #33CCFF;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+    font-size: 24px;
+  a {
+    padding-right: 1em;
+    margin: auto;
+    text-align: right;
+    font-decoration: none;
+    font-size: 1em;
+    color: white;
+  }
+  a:hover {
+    color: black;
+  }
+
+#top {
+  h1 {
+  color:  white;
+  font-size: 3em;
+  }
+}
+
+  #delete_account {
+    float: right;
+    padding-right: 2em;
+  }
+}
+
+body {
+  background-color: #ECF0F1;
+  color: black;
+
+  h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    font-size: 2em;
+  }
+  h3 {
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    color: black;
+  }
+  h4 {
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    color: black;
+  }
+}
+
+.panel {
+  background-color: white;
+  border: solid 1px black;
+  height: 75%;
+  p {
+    color: black;
+    font-family: 'Cinzel', serif;
+  }
+  h5{
+    font-family: 'Cinzel', serif;
+    font-size: 24px;
+    text-align: center;
+  }
+  h6 {
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+    float: left;
+    display: inline;
+    padding-right: 50%;
+  }
+}
+  .panel:hover {
+    background-color: #33CCFF;
+  }
+
+article.tweets {
+  width: 100%;
+  margin: auto;
+}
+
+.btn {
+  background-color: #33CCFF;
+  border: solid 1px #33CCFF;
+  color: black;
+  font-family: 'Cinzel', serif;
+  font-size: 1em;
+}
+  .btn:hover {
+    background-color: #FF0000;
+    border: solid 1px #FF0000;
+    color: white;
+  }
+
+.notice {
+  background: #1ABC9C;
+  border: 1px solid darken(#1ABC9C, 15%);
+  color: #ECF0F1;
+  padding: 1em;
+}
+
+.list-group-item {
+  background-color: #ECF0F1;
+  border: none;
+  text-align: center;
+  color: #3b5998;
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+}
+
+h3 {
+  border: solid, 1px, #1ABC9C;
+}
+
+ul {
+  list-style: none;
+}
+
+#new {
+  background-color: #ABABAB;
+  margin-left: 25%;
+  font-size: 1.5em;
+  h6 {
+    font-family: 'Indie Flower', cursive;
+    color: black;
+    font-size: 26px;
+  }
+}
+
+.label {
+  font-family: 'Cinzel', serif;
+  color: white;
+  font-size: 1em;
+}
+
+.follow {
+  color: green;}
+  .follow:hover {
+    color: black;
+    text-decoration: none;
+  }
+
+.left {
+  margin: auto;
+  padding-left: 30px;
+}
+
+.user_info {
+  text-align: center;
+  margin: auto;
+  h1 {
+    font-size: 2.5em;
+  }
+}
+
+.pagination {
+  text-align: center;
+}
