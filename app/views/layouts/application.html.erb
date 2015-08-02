@@ -19,8 +19,6 @@
     <div class="nav">
       <div id="top"> <h1> Twitta!!! </h1> </div>
       <% if logged_in? %>
-        <%= link_to "Home", root_path %>
-        <%= link_to "Account", @current_user%>
         <%= link_to "Log Out", logout_path %>
       <% end%>
     </div>

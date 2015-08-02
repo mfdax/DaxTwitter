@@ -17,16 +17,11 @@
     color: black;
   }
 
-#top {
-  h1 {
-  color:  white;
-  font-size: 3em;
-  }
-}
-
-  #delete_account {
-    float: right;
-    padding-right: 2em;
+  #top {
+    h1 {
+      color:  white;
+      font-size: 3em;
+    }
   }
 }
 
@@ -74,11 +69,12 @@ body {
     padding-right: 50%;
   }
 }
+
   .panel:hover {
     background-color: #33CCFF;
   }
 
-article.tweets {
+.tweets {
   width: 100%;
   margin: auto;
 }

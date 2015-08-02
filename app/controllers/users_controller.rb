@@ -46,7 +46,7 @@ class UsersController < ApplicationController
     if @user.save
         flash[:success] = "Welcome to Twitta!"
         session[:user_id] = @user.id
-        redirect_to @user
+        redirect_to root_path
       else
         render :new
       end
@@ -56,14 +56,14 @@ class UsersController < ApplicationController
   def follow
     user = User.find(params[:id])
     @current_user.follow(user)
-    redirect_to user_path
+    redirect_to root_path, notice: "You are now following " "#{user.username}"
   end
 
 
   def unfollow
       user = User.find(params[:id])
       @current_user.stop_following(user)
-      redirect_to user_path,  notice: "You just unfollowed " "#{user.username}"
+      redirect_to root_path, notice: "You just unfollowed " "#{user.username}"
   end
 
 

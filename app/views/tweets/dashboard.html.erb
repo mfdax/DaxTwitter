@@ -5,7 +5,7 @@
 
 
 <div class="col-md-6">
-<article class ="tweets">
+<div class ="tweets">
 
     <h1> Hello <%= @current_user.username.upcase %>!!! </h1>
     <h3> Say something... </h3>
@@ -17,6 +17,10 @@
       <br>
 
       <h4> You have <%= pluralize @tweets.total_count, "Tweets" %> </h4>
+
+      <div class:"btn">
+        <%= paginate @tweets %>
+      </div>
 
       <% @tweets.each do |tweet| %>
             <div class="panel panel-default">
@@ -31,7 +35,7 @@
         <%= paginate @tweets %>
       </div>
 
-</article>
+</div>
 </div>
 
 <div class="col-md-3">
